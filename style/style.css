@@ -256,6 +256,14 @@ ul {
     align-items: flex-end;
 }
 
+.tap {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    position: relative;
+    color: var(--color-primary-brand);
+}
+
 
 /* photo */
 
@@ -288,13 +296,35 @@ ul {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        max-width: 300px;
     }
 
     .card:hover .extra-card {
         opacity: 1;
-        bottom: -28%;
+        bottom: -38%;
     }
 
+    .photo {
+        display: flex;
+        justify-content: center;
+        height: 200px;
+        aspect-ratio: 1/1;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    .card-items {
+        text-align: end;
+    }
+
+    .post {
+        white-space: nowrap;
+    }
 
 
 }
